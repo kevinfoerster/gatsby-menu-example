@@ -1,0 +1,35 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+.product {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    font-family: 'Lora', serif;
+}
+
+.specialProduct {
+    border: 1px solid black;
+}
+
+.productName {
+    font-weight: bold;
+    flex-basis: 100%;
+    flex-grow: 1;
+    
+}
+.productName small {
+    color: grey;
+    font-weight: 300;
+}
+.productPrice,
+.productSize {
+    
+    text-align: right;;
+    flex-basis: 20%;
+    flex-grow: 0;
+    flex-shrink: 1;
+}
+.productPrice{ 
+    font-weight: bold;
+}
